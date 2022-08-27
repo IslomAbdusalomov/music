@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(214, 236, 254);
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 33%;
+    height: 622px;
+    background-color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.container__img{
+    padding-bottom: 35px;
+}
+.container__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.container__title h1{
+    font-size: 25px;
+    color: #333;
+}
+.container__subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.container__subtitle span{
+    width: 60%;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+.container__box{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(246, 246, 246);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+.container__box img{
+    position: absolute;
+    left: 0;
+    margin-left: 18px;
+}
+.container__box strong{
+    font-size: 15px;
+    color: #444;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.container__box span{
+    font-size: 15px;
+    color: #555;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+.container__box a{
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    margin-right: 18px;
+    font-weight: bold;
+}
+.container__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.container__btn button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0px 10px 30px 15px rgb(179, 203, 222);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer span{
+    color: #555;
+}
